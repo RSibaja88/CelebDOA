@@ -11,7 +11,7 @@ const CelebCard = (props) => {
   const Card = styled.section`
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 900px;
     justify-content: center;
     padding: 0;
     border-radius: 5px;
@@ -22,59 +22,14 @@ const CelebCard = (props) => {
   const FormBox = styled.form`
     display: flex;
     flex-direction: row;
-    align-items: space-between;
+    align-items: center;
     justify-content: center;
     margin-top: 3%;
     width: 100%;
-    height: 55vh;
+    height: 590px;
     margin-bottom: 3%;
     border-radius: 5px;
     ${"" /* border: 3px solid lime; */}
-  `;
-
-  const Name = styled.p`
-    font-size: 5vw;
-    text-align: center;
-    line-height: 0.85;
-    margin-top: 1%;
-    font-family: "Bebas Neue", cursive;
-    font-weight: 500;
-    color: white;
-    ${"" /* border: 3px solid orange; */}
-  `;
-
-  const Born = styled.p`
-    font-size: 3.1vw;
-    margin-top: 5%;
-    text-align: center;
-    line-height: 0.8;
-    font-family: "Bebas Neue", cursive;
-    font-weight: 500;
-    color: white;
-    ${"" /* border: 3px solid coral; */}
-  `;
-  const Known = styled.p`
-    font-size: 2.7vw;
-    text-align: center;
-    line-height: 1;
-    padding-top: 5%;
-    padding-bottom: 17%;
-    font-family: "Bebas Neue", cursive;
-    font-weight: 500;
-    color: white;
-    ${"" /* border: 3px solid crimson; */}
-  `;
-
-  const Score = styled.p`
-    font-size: 250%;
-    text-align: center;
-    line-height: 1;
-    padding: 0%;
-    font-family: "Bebas Neue", cursive;
-    font-weight: 500;
-    color: #c99f00;
-    margin-right: 6%;
-    ${"" /* border: 3px solid black; */}
   `;
 
   const [celeb, setCeleb] = useState([]);
@@ -126,35 +81,49 @@ const CelebCard = (props) => {
   };
 
   return (
-    <section>
+    <section className="topSec">
       <div className="topRender">
         <Timers />
         <a href="https://doa2.netlify.com/">
           <img className="logo" src={logo}></img>
         </a>
-        <Score>Score: {count}</Score>
+        <div className="score">Score: {count}</div>
       </div>
       <Card>
         <div className="gameCard">
-          <FormBox>
-            <div className="groupOne">
-              <Name>{celeb.name}</Name>
-              <img src={celeb.image_url} className="celebPic" alt="celebPic" />
-            </div>
-            <div className="groupTwo">
-              <Born>Born: {celeb.birth} - ???</Born>
-              <Known>Occupation: {celeb.info}</Known>
-
-              <div className="butt">
-                <Button
-                  type="button"
-                  label="ALIVE"
-                  onClick={AliveTest}
-                ></Button>
-                <Button type="button" label="DEAD" onClick={DeadTest}></Button>
+          <div className="formBox">
+            <div className="frame">
+              <div className="groupOne">
+                <div className="name">{celeb.name}</div>
+                <img
+                  src={celeb.image_url}
+                  className="celebPic"
+                  alt="celebPic"
+                />
               </div>
             </div>
-          </FormBox>
+            <div className="frame">
+              <div className="groupTwo">
+                <div className="born">Born: {celeb.birth} - ???</div>
+                <div className="known">Occupation: {celeb.info}</div>
+
+                <div className="butt">
+                  <Button
+                    type="button"
+                    label="ALIVE"
+                    onClick={AliveTest}
+                  ></Button>
+                </div>
+                <div className="butt">
+                  <Button
+                    type="button"
+                    label="DEAD"
+                    onClick={DeadTest}
+                  ></Button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </Card>
     </section>

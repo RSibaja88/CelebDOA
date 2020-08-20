@@ -1,6 +1,7 @@
 import React from "react";
 import Timer from "react-compound-timer";
 import styled from "styled-components";
+import "../index.css";
 
 export default function Timers() {
   const Mins = styled.p`
