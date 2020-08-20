@@ -5,7 +5,7 @@ import styled from "styled-components";
 export default function Timers() {
   const Mins = styled.p`
     color: #c99f00;
-    font-size: 4em;
+    font-size: 250%;
     text-align: center;
     line-height: 1;
     padding: 0%;
@@ -14,7 +14,7 @@ export default function Timers() {
 
   const Hours = styled.p`
     color: #c99f00;
-    font-size: 4em;
+    font-size: 250%;
     text-align: center;
     line-height: 1;
     padding: 0%;
@@ -22,7 +22,7 @@ export default function Timers() {
   `;
   const Secs = styled.p`
     color: #c99f00;
-    font-size: 4em;
+    font-size: 250%;
     text-align: center;
     line-height: 1;
     padding: 0%;

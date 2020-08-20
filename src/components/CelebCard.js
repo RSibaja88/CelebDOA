@@ -26,14 +26,14 @@ const CelebCard = (props) => {
     justify-content: center;
     margin-top: 3%;
     width: 100%;
-    height: 20%;
+    height: 55vh;
     margin-bottom: 3%;
     border-radius: 5px;
     ${"" /* border: 3px solid lime; */}
   `;
 
   const Name = styled.p`
-    font-size: 3.75em;
+    font-size: 5vw;
     text-align: center;
     line-height: 0.85;
     margin-top: 1%;
@@ -44,7 +44,8 @@ const CelebCard = (props) => {
   `;
 
   const Born = styled.p`
-    font-size: 2.75em;
+    font-size: 3.1vw;
+    margin-top: 5%;
     text-align: center;
     line-height: 0.8;
     font-family: "Bebas Neue", cursive;
@@ -53,7 +54,7 @@ const CelebCard = (props) => {
     ${"" /* border: 3px solid coral; */}
   `;
   const Known = styled.p`
-    font-size: 1.5em;
+    font-size: 2.7vw;
     text-align: center;
     line-height: 1;
     padding-top: 5%;
@@ -65,7 +66,7 @@ const CelebCard = (props) => {
   `;
 
   const Score = styled.p`
-    font-size: 4em;
+    font-size: 250%;
     text-align: center;
     line-height: 1;
     padding: 0%;
