@@ -84,9 +84,8 @@ const CelebCard = (props) => {
     <section className="topSec">
       <div className="topRender">
         <Timers />
-        <a href="https://doa2.netlify.com/">
-          <img className="logo" src={logo}></img>
-        </a>
+        <img className="logo" src={logo}></img>
+
         <div className="score">Score: {count}</div>
       </div>
       <Card>
