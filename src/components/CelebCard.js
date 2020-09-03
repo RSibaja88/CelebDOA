@@ -11,25 +11,13 @@ const CelebCard = (props) => {
   const Card = styled.section`
     display: flex;
     flex-direction: row;
-    width: 900px;
+    width: 75%;
     justify-content: center;
     padding: 0;
     border-radius: 5px;
     margin: 0%;
     align-items: center;
-    ${"" /* border: 3px solid white; */}
-  `;
-  const FormBox = styled.form`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3%;
-    width: 100%;
-    height: 590px;
-    margin-bottom: 3%;
-    border-radius: 5px;
-    ${"" /* border: 3px solid lime; */}
+    border: 3px solid white;
   `;
 
   const [celeb, setCeleb] = useState([]);

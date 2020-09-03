@@ -6,28 +6,31 @@ import "../index.css";
 export default function Timers() {
   const Mins = styled.p`
     color: #c99f00;
-    font-size: 250%;
+    font-size: 22pt;
     text-align: center;
     line-height: 1;
     padding: 0%;
     font-family: "Bebas Neue", cursive;
+    border: 3px solid teal;
   `;
 
   const Hours = styled.p`
     color: #c99f00;
-    font-size: 250%;
+    font-size: 22pt;
     text-align: center;
     line-height: 1;
     padding: 0%;
     font-family: "Bebas Neue", cursive;
+    border: 3px solid skyblue;
   `;
   const Secs = styled.p`
     color: #c99f00;
-    font-size: 250%;
+    font-size: 22pt;
     text-align: center;
     line-height: 1;
     padding: 0%;
     font-family: "Bebas Neue", cursive;
+    border: 3px solid crimson;
   `;
 
   console.log("timer");
