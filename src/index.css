@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 100vw;
-    height: 100vw;
+    width: 100;
+    height: 100;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
     background: -webkit-radial-gradient(circle, rgba(217, 217, 217, 1) 0%, rgba(0, 0, 0, 1) 100%);
     background: radial-gradient(circle, rgba(217, 217, 217, 1) 0%, rgba(0, 0, 0, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#d9d9d9", endColorstr="#000000", GradientType=1);
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   
   button {
@@ -28,7 +28,7 @@
     width: 75%;
     box-shadow: -1px 3px 5px #171531;
     margin-bottom: 2%;
-    border: 3px solid navy;
+    /* border: 3px solid navy; */
   }
   
   .topSec {
@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 3px solid yellow;
+    /* border: 3px solid pink; */
     margin: 0;
   }
   
@@ -49,27 +49,9 @@
     width: 90%;
     height: 90%;
     background-image: url(../src/Graphics/marble.jpg);
-    border: 4px solid rebeccapurple;
+    /* border: 4px solid rebeccapurple; */
     padding: 0;
   }
-  /*   
-  @media only screen and (max-width: 870px) {
-    .groupOne {
-      width: 220px;
-      height: 96%;
-    }
-  }
-  
-  @media only screen and (max-width: 570px) {
-    .groupOne {
-      width: 92%;
-      height: 40%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-  } */
   
   .groupTwo {
     display: flex;
@@ -79,25 +61,9 @@
     width: 90%;
     height: 90%;
     background-image: url(../src/Graphics/marble.jpg);
-    border: 4px solid brown;
+    /* border: 4px solid brown; */
     padding: 0;
   }
-  /*   
-  @media only screen and (max-width: 870px) {
-    .groupTwo {
-      width: 220px;
-      height: 96%;
-    }
-  }
-  
-  @media only screen and (max-width: 570px) {
-    .groupTwo {
-      width: 92%;
-      height: 40%;
-      background-size: cover;
-    }
-  }
-   */
   
   .celebPic {
     display: flex;
@@ -112,22 +78,6 @@
     -o-border-radius: 7px;
     /* border: 3px solid white; */
   }
-  /* @media only screen and (max-width: 768px) {
-    .celebPic {
-      width: 18vw;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .celebPic {
-      width: 20vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 7%;
-    }
-  }
-   */
   
   .gameCard {
     position: relative;
@@ -140,28 +90,13 @@
     width: 95%;
     height: 525px;
     border-radius: 10px;
-    border: 3px solid fuchsia;
+    /* border: 3px solid fuchsia; */
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     box-shadow: -5px 5px 15px black;
   }
-  /* @media only screen and (max-width: 768px) {
-    .gameCard {
-      width: 550px;
-      height: 460px;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .gameCard {
-      margin-top: 0%;
-      width: 350px;
-      height: 80%;
-    }
-  }
-   */
   
   .formBox {
     display: flex;
@@ -173,28 +108,19 @@
     height: 490px;
     margin-bottom: 0;
     border-radius: 5px;
-    border: 3px solid springgreen;
+    /* border: 3px solid springgreen; */
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
   }
-  /* @media only screen and (max-width: 480px) {
-    .formBox {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 50%;
-    }
-  }
-   */
   
   .butt {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 4px solid silver;
+    /* border: 4px solid silver; */
     width: 70%;
     transition: 650ms;
     -webkit-transition: 650ms;
@@ -222,14 +148,8 @@
     font-family: "Bebas Neue", cursive;
     font-weight: 500;
     color: #c99f00;
-    border: 4px solid tomato;
+    /* border: 4px solid tomato; */
   }
-  /* @media only screen and (max-width: 480px) {
-    .tFormat {
-      font-size: 6pt;
-      margin-bottom: 30%;
-    }
-  } */
   
   .topRender {
     display: flex;
@@ -238,21 +158,8 @@
     margin-top: 0;
     width: 80%;
     height: 140px;
-    border: 4px solid cyan;
+    /* border: 4px solid cyan; */
   }
-  /* @media only screen and (max-width: 480px) {
-    .topRender {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 12px;
-      margin-bottom: 40px;
-      height: 95%;
-      border: 3px solid rgb(195, 195, 255);
-    }
-  }
-   */
   
   .score {
     font-size: 24pt;
@@ -266,15 +173,8 @@
     font-family: "Bebas Neue", cursive;
     font-weight: 500;
     color: #c99f00;
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
   }
-  /* @media only screen and (max-width: 480px) {
-    .score {
-      margin-top: 5%;
-      font-size: 24pt;
-      text-shadow: -5px 5px 15px rgb(27, 27, 27);
-    }
-  } */
   
   .born {
     font-size: 35pt;
@@ -286,17 +186,6 @@
     font-weight: 500;
     color: rgb(2, 85, 85);
   }
-  /* @media only screen and (max-width: 768px) {
-    .born {
-      font-size: 170%;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .born {
-      font-size: 150%;
-    }
-  } */
   
   .known {
     font-size: 22pt;
@@ -309,39 +198,15 @@
     font-weight: 500;
     color: rgb(2, 85, 85);
   }
-  /* @media only screen and (max-width: 768px) {
-    .known {
-      font-size: 170%;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .known {
-      font-size: 120%;
-      padding-bottom: 9%;
-    }
-  } */
   
   .logo {
-    border: 3px solid rgb(79, 79, 128);
+    /* border: 3px solid rgb(79, 79, 128); */
     display: flex;
     width: 275px;
     padding-left: 3%;
     padding-right: 0;
     margin-top: 7px;
   }
-  /* @media only screen and (max-width: 768px) {
-    .logo {
-      margin-left: 5%;
-      width: 225px;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .logo {
-      width: 100%;
-    }
-  } */
   
   .frame {
     display: flex;
@@ -350,25 +215,11 @@
     align-items: center;
     width: 100%;
     height: 90%;
-    border: 5px solid green;
+    /* border: 5px solid green; */
     margin-right: 2.5%;
     margin-left: 2.5%;
     background-image: url(../src/Graphics/goldfoil.jpg);
   }
-  /* @media only screen and (max-width: 870px) {
-    .frame {
-      width: 250px;
-      height: 410px;
-    }
-  }
-  
-  @media only screen and (max-width: 570px) {
-    .frame {
-      width: 90%;
-      height: 90%;
-    }
-  }
-   */
   
   .name {
     font-size: 36pt;
@@ -380,10 +231,173 @@
     font-family: "Bebas Neue", cursive;
     font-weight: 500;
     color: rgb(2, 85, 85);
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
   }
-  /* @media only screen and (max-width: 870px) {
-    .name {
-      font-size: 200%;
+  /*//MEDIA QUERIES FOR TABLET 768PX// */
+  
+  @media only screen and (max-width: 768px) {
+    button {
+      font-size: 18pt;
+      margin-top: 0;
+      width: 75%;
+      margin-bottom: 0;
     }
-  } */
+    .topSec {
+      width: 80%;
+      padding-left: 10%;
+    }
+    .groupOne {
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 85%;
+      height: 85%;
+    }
+    .groupTwo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 85%;
+      height: 85%;
+    }
+    .celebPic {
+      width: 90%;
+    }
+    .gameCard {
+      width: 75%;
+      height: 500px;
+      border-radius: 10px;
+    }
+    .formBox {
+      margin-top: 0;
+      width: 800px;
+      height: 380px;
+      margin-bottom: 0;
+    }
+    .tFormat {
+      width: 100%;
+      height: 20px;
+      margin-top: 4%;
+      margin-left: 0%;
+    }
+    .topRender {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0;
+      width: 50%;
+      height: 140px;
+    }
+    .score {
+      font-size: 10pt;
+      margin-right: 0%;
+      width: 15%;
+      justify-content: center;
+    }
+    .born {
+      font-size: 20pt;
+    }
+    .known {
+      font-size: 16pt;
+      width: 100%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+    .logo {
+      width: 175px;
+      padding-left: 8%;
+      margin-top: 0;
+    }
+    .frame {
+      width: 85%;
+      height: 85%;
+      margin-right: 2.5%;
+      margin-left: 2.5%;
+    }
+    .name {
+      font-size: 24pt;
+    }
+  }
+  /* ///MEDIA QUERIES FOR MOBILE 480PX/// */
+  
+  @media only screen and (max-width: 480px) {
+    button {
+      font-size: 12pt;
+      width: 70%;
+    }
+    .topSec {
+      width: 80%;
+      padding-left: 9.5%;
+    }
+    .groupOne {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 85%;
+      height: 85%;
+    }
+    .groupTwo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 85%;
+      height: 85%;
+    }
+    .celebPic {
+      width: 45%;
+      margin-right: 2%;
+    }
+    .gameCard {
+      width: 55%;
+      height: 450px;
+      border-radius: 10px;
+    }
+    .formBox {
+      flex-direction: column;
+      margin-top: 0;
+      width: 810px;
+      height: 420px;
+    }
+    .tFormat {
+      width: 100%;
+      height: 15px;
+      margin-top: 4%;
+      margin-left: 0%;
+    }
+    .topRender {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0;
+      width: 50%;
+      height: 140px;
+      /* border: 4px solid cyan; */
+    }
+    .score {
+      font-size: 10pt;
+      margin-right: 0%;
+      width: 15%;
+      justify-content: center;
+    }
+    .born {
+      font-size: 16pt;
+    }
+    .known {
+      font-size: 12pt;
+      width: 100%;
+      padding-top: 0%;
+      padding-bottom: 2%;
+    }
+    .logo {
+      width: 195px;
+      padding-left: 8%;
+      margin-top: 0;
+    }
+    .name {
+      font-size: 18pt;
+    }
+  }

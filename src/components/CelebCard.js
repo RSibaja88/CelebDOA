@@ -17,7 +17,7 @@ const CelebCard = (props) => {
     border-radius: 5px;
     margin: 0%;
     align-items: center;
-    border: 3px solid white;
+    ${"" /* border: 3px solid white; */}
   `;
 
   const [celeb, setCeleb] = useState([]);

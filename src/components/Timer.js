@@ -11,7 +11,11 @@ export default function Timers() {
     line-height: 1;
     padding: 0%;
     font-family: "Bebas Neue", cursive;
-    border: 3px solid teal;
+    ${"" /* border: 3px solid teal; */}
+
+    @media only screen and (max-width: 768px) {
+      font-size: 10pt;
+    }
   `;
 
   const Hours = styled.p`
@@ -21,7 +25,11 @@ export default function Timers() {
     line-height: 1;
     padding: 0%;
     font-family: "Bebas Neue", cursive;
-    border: 3px solid skyblue;
+    ${"" /* border: 3px solid skyblue; */}
+
+    @media only screen and (max-width: 768px) {
+      font-size: 10pt;
+    }
   `;
   const Secs = styled.p`
     color: #c99f00;
@@ -30,7 +38,11 @@ export default function Timers() {
     line-height: 1;
     padding: 0%;
     font-family: "Bebas Neue", cursive;
-    border: 3px solid crimson;
+    ${"" /* border: 3px solid crimson; */}
+
+    @media only screen and (max-width: 768px) {
+      font-size: 10pt;
+    }
   `;
 
   console.log("timer");
